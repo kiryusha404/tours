@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+}
+.main_nav{
+    border-bottom: 2px solid #000;
+    width: 100%;
+    text-align: right;
+}
+.main_nav a{
+    color: black;
+    margin: 10px 5px;
+    text-decoration: none;
+}
+.main_nav a:hover{
+    color: blue;
+}
+.form{
+    width: 200px;
+    margin:5px auto;
+    text-align: center;
+}
+.form input{
+    width: 100%;
+    margin: 2px 0;
+}
+.form button{
+    margin: 2px 0;
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    padding: 4px;
+}
+.error{
+    color: red;
+}
