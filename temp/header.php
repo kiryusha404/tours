@@ -20,6 +20,8 @@
             }
             else{
         ?>
+            <a href = "tours">Туры</a>
+            <a href = "top">Хиты</a>
             <a href = "log_out">Выйти</a>
         <?php
             }

@@ -42,3 +42,23 @@ header{
 .error{
     color: red;
 }
+.tours{
+    width: 400px;
+    margin:5px auto;
+}
+.tour{
+    width: 100%;
+}
+.tour p{
+    display: inline;
+    margin: 10px 5px;
+}
+.tour a{
+    color: blue;
+    float: right;
+    text-decoration: none;
+}
+.tour a:hover{
+    color: rgb(3, 3, 117);
+
+}
