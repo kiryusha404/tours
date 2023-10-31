@@ -22,6 +22,13 @@
         ?>
             <a href = "tours">Туры</a>
             <a href = "top">Хиты</a>
+            <?php
+                if($_SESSION['admin'] == 1){
+            ?>
+                <a href = "admin">Админ панель</a>
+            <?php
+            }
+            ?>
             <a href = "log_out">Выйти</a>
         <?php
             }

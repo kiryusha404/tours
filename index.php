@@ -12,7 +12,7 @@
     <form method="POST" >
         <input type="text" required name="login" placeholder="Логин"> 
         <input type="password" required name="password" placeholder="Пароль"> 
-        <button type="submit" class="">Войти</button>
+        <button type="submit" >Войти</button>
 
         <?php 
         if(!empty($_POST['login']) && !empty($_POST['password'])){
