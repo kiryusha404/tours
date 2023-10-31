@@ -23,7 +23,8 @@
 
                 if(password_verify($_POST['password'], $row['password'])){
 
-                   $_SESSION['id'] = $row['id']; 
+                    $_SESSION['id'] = $row['id']; 
+                    $_SESSION['admin'] = $row['is_admin']; 
                    
                    echo "<script>window.location.href='tours'</script>";
                 }

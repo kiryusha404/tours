@@ -35,6 +35,7 @@
                     $row = mysqli_fetch_array($input);
 
                     $_SESSION['id'] = $row['id']; 
+                    $_SESSION['admin'] = $row['is_admin']; 
                    
                    echo "<script>window.location.href='tours'</script>";
                 }

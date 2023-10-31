@@ -10,7 +10,7 @@
 
 <div class = "tours">
     <?php
-        $push = 'SELECT * FROM `tour`';
+        $push = 'SELECT * FROM `tour` where route = "'.$_GET['id'].'"';
         $input = mysqli_query($touring, $push);
         while($row = mysqli_fetch_array($input)){
     ?>
